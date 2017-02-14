@@ -1,6 +1,6 @@
 {
   "name": "@zippytech/react-simple-toolbar",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A carefully crafted simple toolbar for React",
   "main": "lib/index.js",
   "author": "Zippy Technologies <contact@zippyui.com>",
