@@ -1,0 +1,57 @@
+{
+  "name": "@zippytech/react-simple-toolbar",
+  "version": "2.0.0",
+  "description": "A carefully crafted simple toolbar for React",
+  "main": "lib/index.js",
+  "author": "Zippy Technologies <contact@zippyui.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zippytech/react-simple-toolbar/issues"
+  },
+  "homepage": "https://github.com/zippytech/react-simple-toolbar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zippytech/react-simple-toolbar.git"
+  },
+  "keywords": [
+    "toolbar",
+    "react",
+    "react-component"
+  ],
+  "scripts": {
+    "dev": "BABEL_ENV=development webpack-dev-server --progress --colors --config ./build/dev.config.js",
+    "lib": "rimraf lib && BABEL_ENV=production npm run babel",
+    "babel": "babel --out-dir lib src",
+    "build": "npm run styles && npm run lib",
+    "styles": "theme-builder"
+  },
+  "dependencies": {
+    "@zippytech/react-class": "^4.0.4",
+    "@zippytech/react-clean-props": "^2.0.3",
+    "@zippytech/react-flex": "^3.0.3",
+    "object-assign": "^4.1.1"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.0 || >=15.0.0",
+    "react-dom": ">=0.14.0 || >=15.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "3.2.0",
+    "babel-cli": "^6.10.1",
+    "babel-core": "6.3.21",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "css-loader": "0.23.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "http-server": "^0.7.3",
+    "style-loader": "0.13.0",
+    "react": "^15.4.1",
+    "react-addons-perf": "^15.4.1",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "1.12.12",
+    "webpack-dev-server": "1.14.1",
+    "zippyui-theme-builder": "^1.0.2"
+  }
+}

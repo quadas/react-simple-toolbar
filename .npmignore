@@ -1,0 +1,10 @@
+test
+build
+node_modules
+.idea
+.babelrc
+.history
+index.html
+./index.js
+src
+.npmignore
