@@ -4,11 +4,17 @@
 
 Enables you to easily layout items in a toolbar with custom align options.
 
+## Install
+
+```sh
+$ npm i @zippytech/react-simple-toolbar
+```
+
 ## Usage
 
 ```jsx
-import 'react-simple-toolbar/index.css'
-import Toolbar, { Region } from 'react-simple-toolbar'
+import '@zippytech/react-simple-toolbar/index.css'
+import Toolbar, { Region } from '@zippytech/react-simple-toolbar'
 
 <Toolbar>
   <Region>
@@ -33,8 +39,8 @@ You can customize the **`align`** prop of each region explicitly.
 Regions are basically flex items, with a **default flex of 1**. This can also be customized.
 
 ```jsx
-import 'react-simple-toolbar/index.css'
-import Toolbar, { Region } from 'react-simple-toolbar'
+import '@zippytech/react-simple-toolbar/index.css'
+import Toolbar, { Region } from '@zippytech/react-simple-toolbar'
 
 <Toolbar>
   <Region flex={1}>
@@ -80,6 +86,6 @@ By default, the `Toolbar` has **`overflow: hidden`** in css. If you don't want t
 
 Also note that `react-simple-toolbar` and all it's descendents are rendered with **`box-sizing: border-box`**. This is generally the most natural box-sizing, but in some cases you might want some of the nodes in the toolbar to have a different value. If that's the case, you should explicitly specify a different `box-sizing` for your components.
 
-## License
+## LICENSE
 
-### Commercial
+#### [Apache2](./LICENSE)
