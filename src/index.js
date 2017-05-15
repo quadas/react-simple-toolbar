@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import React, { PropTypes, cloneElement } from 'react';
+import React, { cloneElement } from 'react';
+import PropTypes from 'prop-types';
 
 import assign from 'object-assign';
-import autoBind from '@zippytech/react-class/autoBind';
-import cleanProps from '@zippytech/react-clean-props';
+import cleanProps from 'react-clean-props';
 
 import ToolbarRegion from './ToolbarRegion';
 import join from './join';

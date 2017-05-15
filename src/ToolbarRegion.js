@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import React, { PropTypes, cloneElement } from 'react';
-import assign from 'object-assign';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import cleanProps from '@zippytech/react-clean-props';
+import cleanProps from 'react-clean-props';
 import { Item } from '@zippytech/react-flex';
 
 import join from './join';

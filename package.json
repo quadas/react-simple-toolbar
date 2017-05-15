@@ -1,5 +1,5 @@
 {
-  "name": "@zippytech/react-simple-toolbar",
+  "name": "react-simple-toolbar",
   "version": "2.0.3",
   "description": "A carefully crafted simple toolbar for React",
   "main": "lib/index.js",
@@ -26,10 +26,10 @@
     "styles": "theme-builder"
   },
   "dependencies": {
-    "@zippytech/react-class": "^4.0.4",
-    "@zippytech/react-clean-props": "^2.0.3",
     "@zippytech/react-flex": "^3.0.4",
-    "object-assign": "^4.1.1"
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.5.10",
+    "react-clean-props": "quadas/react-clean-props#9324ccd0a0ad43775c35bbceaf1bdfcbf4b7748e"
   },
   "peerDependencies": {
     "react": ">=0.14.0 || >=15.0.0",
@@ -45,11 +45,12 @@
     "css-loader": "0.23.1",
     "extract-text-webpack-plugin": "1.0.1",
     "http-server": "^0.7.3",
-    "style-loader": "0.13.0",
     "react": "^15.4.1",
     "react-addons-perf": "^15.4.1",
     "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.4.1",
+    "rimraf": "^2.6.1",
+    "style-loader": "0.13.0",
     "webpack": "1.12.12",
     "webpack-dev-server": "1.14.1",
     "zippyui-theme-builder": "^1.0.2"
